@@ -1,6 +1,6 @@
 /**
- * Copyright (C) 2019 The LineageOS Project
- * Copyright (C) 2019 The PixelExperience Project
+ * Copyright (C) 2019-2020 The LineageOS Project
+ * Copyright (C) 2019-2020 The PixelExperience Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,9 +21,9 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleHEXAGON",
+	name: "HotwordEnrollmentOKGoogleWCD9340",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -33,9 +33,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentXGoogleHEXAGON",
+	name: "HotwordEnrollmentXGoogleWCD9340",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
+	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
