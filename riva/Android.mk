@@ -98,7 +98,7 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := CNEApp
+LOCAL_MODULE := CneApp
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/vendor/app/CneApp/CneApp.apk
 LOCAL_CERTIFICATE := platform
