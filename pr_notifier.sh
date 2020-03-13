@@ -1,4 +1,4 @@
-ADMINS="@Hlcpereira @baalajimaestro @AndroidPie9 @Dyneteve"
+ADMINS="@Hlcpereira @baalajimaestro @Shreejoy\_Dash @Dyneteve"
 
 function sendMaintainers() {
     curl -s "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendmessage" --data "text=${*}&chat_id=-1001287849567&disable_web_page_preview=true&parse_mode=Markdown" > /dev/null
