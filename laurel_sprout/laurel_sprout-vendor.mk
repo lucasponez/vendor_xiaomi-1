@@ -215,7 +215,41 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
     vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/egl/eglSubDriverAndroid.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/egl/libEGL_adreno.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/egl/libGLESv2_adreno.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/egl/libQTapGLES.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/egl/libq3dtools_adreno.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/egl/libq3dtools_esx.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/hw/vulkan.trinket.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/vulkan.trinket.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/libC2D2.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libC2D2.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/libCB.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libCB.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/libOpenCL.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libOpenCL.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/libadreno_utils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libadreno_utils.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libc2d30_bltlib.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/libgsl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libgsl.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libllvm-glnext.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libllvm-qcom.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib/libpvr.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libpvr.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/egl/eglSubDriverAndroid.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/egl/libEGL_adreno.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/egl/libGLESv1_CM_adreno.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/egl/libGLESv2_adreno.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/egl/libQTapGLES.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/egl/libq3dtools_adreno.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/egl/libq3dtools_esx.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/hw/vulkan.trinket.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hw/vulkan.trinket.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/libC2D2.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libC2D2.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/libCB.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libCB.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/libOpenCL.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libOpenCL.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libadreno_utils.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libc2d30_bltlib.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/libgsl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgsl.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libllvm-glnext.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libllvm-qcom.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/29/lib64/libpvr.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libpvr.so
 
 PRODUCT_PACKAGES += \
     libantradio \
